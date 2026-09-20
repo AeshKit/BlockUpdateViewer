@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "aesh.kai.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"RenderCloser"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "block-update-viewer",
+	"version": "${version}",
+	"name": "Block Update Viewer",
+	"description": "Visualize and log block update events",
+	"authors": [
+		"KaidenKraft"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/block-update-viewer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"aesh.kai.BlockUpdateViewer"
+		],
+		"client": [
+			"aesh.kai.client.BlockUpdateViewerClient"
+		],
+		"modmenu": [
+			"aesh.kai.client.config.BUVModMenuCompat"
+		]
+	},
+	"mixins": [
+		"block-update-viewer.mixins.json",
+		{
+			"config": "block-update-viewer.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
