@@ -1,9 +1,22 @@
-# Block Update Viewer
+# When will this project be finished ?
 
-## Setup
+I dunno lmaoo
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+# License
 
-## License
+```
+Copyright (C) 2026  AeshKit
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; version 2.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, see
+<https://www.gnu.org/licenses/>.
+```
